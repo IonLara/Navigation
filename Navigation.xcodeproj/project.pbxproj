@@ -13,6 +13,7 @@
 		62EBC89729F30D7700D068E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62EBC89529F30D7700D068E4 /* Main.storyboard */; };
 		62EBC89929F30D7800D068E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EBC89829F30D7800D068E4 /* Assets.xcassets */; };
 		62EBC89C29F30D7800D068E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62EBC89A29F30D7800D068E4 /* LaunchScreen.storyboard */; };
+		62EBC8A429F326A600D068E4 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EBC8A329F326A600D068E4 /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		62EBC89829F30D7800D068E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62EBC89B29F30D7800D068E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62EBC89D29F30D7800D068E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EBC8A329F326A600D068E4 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				62EBC88F29F30D7700D068E4 /* AppDelegate.swift */,
 				62EBC89129F30D7700D068E4 /* SceneDelegate.swift */,
+				62EBC8A329F326A600D068E4 /* SubViewController.swift */,
 				62EBC89329F30D7700D068E4 /* ViewController.swift */,
 				62EBC89529F30D7700D068E4 /* Main.storyboard */,
 				62EBC89829F30D7800D068E4 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				62EBC89429F30D7700D068E4 /* ViewController.swift in Sources */,
 				62EBC89029F30D7700D068E4 /* AppDelegate.swift in Sources */,
 				62EBC89229F30D7700D068E4 /* SceneDelegate.swift in Sources */,
+				62EBC8A429F326A600D068E4 /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

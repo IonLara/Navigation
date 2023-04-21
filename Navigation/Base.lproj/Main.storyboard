@@ -11,7 +11,6 @@
         <!--Doorway-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -52,15 +51,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Doorway" largeTitleDisplayMode="always" id="gay-t5-UDE"/>
+                    <connections>
+                        <outlet property="startView" destination="8bC-Xf-vdC" id="4r9-5g-R4H"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="877" y="11"/>
+            <point key="canvasLocation" x="778" y="-2"/>
         </scene>
         <!--CoatRoom-->
         <scene sceneID="vtW-RD-TYZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sju-Va-wpg" sceneMemberID="firstResponder"/>
-                <viewController title="CoatRoom" id="4Mi-u7-uPQ" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CoatRoom" id="4Mi-u7-uPQ" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ikf-hS-nD4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,6 +123,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Coat Room" largeTitleDisplayMode="always" id="oVS-D3-6q3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sju-Va-wpg" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1616" y="11"/>
         </scene>
@@ -145,8 +148,7 @@
         <!--Library-->
         <scene sceneID="ofa-2f-tXm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hYF-WD-f0A" sceneMemberID="firstResponder"/>
-                <viewController title="Library" id="dd1-ST-BkR" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Library" id="dd1-ST-BkR" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Zm-BL-OEy">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,14 +189,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Library" largeTitleDisplayMode="always" id="5iJ-Iw-004"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYF-WD-f0A" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2411" y="-675"/>
         </scene>
         <!--Dinning Room-->
         <scene sceneID="Xb9-Pn-bWM">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FGb-K6-fjn" sceneMemberID="firstResponder"/>
-                <viewController title="Dinning Room" id="R0R-fy-w26" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Dinning Room" id="R0R-fy-w26" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eCN-KY-cyx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,14 +237,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Dinning Room" largeTitleDisplayMode="always" id="BNz-Hk-5eJ"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGb-K6-fjn" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2410" y="11"/>
         </scene>
         <!--Stairs Up-->
         <scene sceneID="Lnd-2Y-KO4">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rI4-Gl-1fl" sceneMemberID="firstResponder"/>
-                <viewController title="Stairs Up" id="wVf-Sv-VJi" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Stairs Up" id="wVf-Sv-VJi" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oF5-xq-mkp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,14 +295,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Stairs Up" largeTitleDisplayMode="always" id="TK2-Yy-Ta7"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rI4-Gl-1fl" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2410" y="780"/>
         </scene>
         <!--Bedroom-->
         <scene sceneID="ev3-e4-gHV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u8G-Sd-io1" sceneMemberID="firstResponder"/>
-                <viewController title="Bedroom" id="e7d-cc-8Ph" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Bedroom" id="e7d-cc-8Ph" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1pm-Gq-yTf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,14 +324,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Bedroom" largeTitleDisplayMode="always" id="gij-IV-1gN"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8G-Sd-io1" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3320" y="780"/>
         </scene>
         <!--Bathroom-->
         <scene sceneID="Tlw-q1-Z6X">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qmu-Bk-qx5" sceneMemberID="firstResponder"/>
-                <viewController title="Bathroom" id="9fL-TP-yvY" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Bathroom" id="9fL-TP-yvY" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NcL-5o-ut1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,14 +353,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Bathroom" largeTitleDisplayMode="always" id="fR0-nA-gJj"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmu-Bk-qx5" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3320" y="1526"/>
         </scene>
         <!--Kitchen-->
         <scene sceneID="Y6i-TO-bCf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ysW-7R-673" sceneMemberID="firstResponder"/>
-                <viewController title="Kitchen" id="4rE-ho-tKp" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Kitchen" id="4rE-ho-tKp" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yAg-Zo-HtU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -399,14 +401,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Kitchen" largeTitleDisplayMode="always" id="9NH-Pt-0x6"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysW-7R-673" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3204" y="11"/>
         </scene>
         <!--Back Porch-->
         <scene sceneID="2qr-6r-nDS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OvX-yp-XLe" sceneMemberID="firstResponder"/>
-                <viewController title="Back Porch" id="EaE-nY-D1K" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Back Porch" id="EaE-nY-D1K" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XbS-kP-Ucq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -428,14 +430,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Back Porch" largeTitleDisplayMode="always" id="pX3-Tf-PGF"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OvX-yp-XLe" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4042" y="11"/>
         </scene>
         <!--Secret Passage-->
         <scene sceneID="xTs-4o-cEx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zyn-0F-k43" sceneMemberID="firstResponder"/>
-                <viewController title="Secret Passage" id="Ztg-MS-PgX" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Secret Passage" id="Ztg-MS-PgX" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wUW-Mh-JY2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -496,14 +498,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Secret Passage" largeTitleDisplayMode="always" id="jUt-C3-DJh"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zyn-0F-k43" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3204" y="-675"/>
         </scene>
         <!--Mysterious Lake-->
         <scene sceneID="bze-Bb-wxi">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K4O-OE-HnA" sceneMemberID="firstResponder"/>
-                <viewController title="Mysterious Lake" id="3ZD-H0-v3z" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Mysterious Lake" id="3ZD-H0-v3z" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="55F-VV-cDh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -544,14 +546,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Mysterious Lake" largeTitleDisplayMode="always" id="bRE-98-Sli"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K4O-OE-HnA" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4042" y="-675"/>
         </scene>
         <!--Cursed Chalice-->
         <scene sceneID="Pfz-gu-d95">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TfR-mY-k6E" sceneMemberID="firstResponder"/>
-                <viewController title="Cursed Chalice" id="HFO-HN-zOH" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Cursed Chalice" id="HFO-HN-zOH" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RRr-Qz-OlU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -580,14 +582,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Cursed Chalice" largeTitleDisplayMode="always" id="vpj-PI-lLS"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TfR-mY-k6E" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4892" y="-675"/>
         </scene>
         <!--Laboratory-->
         <scene sceneID="9sb-vf-V7u">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wrn-Kd-cRa" sceneMemberID="firstResponder"/>
-                <viewController title="Laboratory" id="I1v-hs-0x2" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Laboratory" id="I1v-hs-0x2" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wD5-nE-Kga">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -628,14 +630,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Laboratory" largeTitleDisplayMode="always" id="zeV-Wl-qZw"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wrn-Kd-cRa" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4042" y="-1353"/>
         </scene>
         <!--Generator-->
         <scene sceneID="YuR-6u-nrr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1ol-Lg-MoR" sceneMemberID="firstResponder"/>
-                <viewController title="Generator" id="6dO-6J-AqG" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Generator" id="6dO-6J-AqG" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ycH-R5-6JV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -657,14 +659,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Generator" largeTitleDisplayMode="always" id="DtH-3M-hV3"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ol-Lg-MoR" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4891" y="-1354"/>
         </scene>
         <!--Dungeon-->
         <scene sceneID="KcP-Zm-AsF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lTv-Li-iRz" sceneMemberID="firstResponder"/>
-                <viewController title="Dungeon" id="NGh-rt-ayR" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Dungeon" id="NGh-rt-ayR" customClass="SubViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Onr-sk-LEi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -686,6 +688,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Dungeon" largeTitleDisplayMode="always" id="hc0-CP-KyH"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lTv-Li-iRz" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4042" y="-2025"/>
         </scene>
